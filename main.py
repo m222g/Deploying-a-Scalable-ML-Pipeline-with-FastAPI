@@ -39,7 +39,7 @@ app = FastAPI()
 @app.get("/")
 async def get_root():
     """ Say hello!"""
-    return {"message": "Welcome to the ML model API"}
+    return {"message": "Hello!"}
 
 
 
